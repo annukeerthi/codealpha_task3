@@ -1,0 +1,31 @@
+# requirements.txt
+# tensorflow
+# numpy
+# music21
+# pickle-mixin
+
+# README.md
+# AI Music Generation
+
+This project is an AI-powered music generation system that composes original music using deep learning (LSTM networks).
+
+## Installation
+1. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+2. Download a dataset of MIDI files and extract musical notes from them.
+
+3. Train the model and save weights:
+   ```sh
+   python train_model.py
+   ```
+
+4. Generate music:
+   ```sh
+   python ai_music_generation.py
+   ```
+
+## Output
+The generated music will be saved as `output.mid`, which can be played with any MIDI player.
